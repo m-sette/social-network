@@ -47,4 +47,5 @@ router.post("/registration", async (req, res) => {
     }
 });
 
+
 module.exports = router;
