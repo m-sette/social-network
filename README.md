@@ -23,14 +23,14 @@ In this file add the information as follows:
   "awsSecret": "your aws secret",
 }
 ```
-In development to start the server you you need two shell. In the first shell run:
+In development to start the server you you need two shells. In the first shell run:
 
 
 ```sh
 $ node bundle-server.js
 
 ```
-And in the second, your Express serve with 
+And in the second, your Express server with:
 
 ```sh
 $ node index.js 
