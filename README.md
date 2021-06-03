@@ -10,19 +10,20 @@ dependancies with npm. This project was created with Node version
 $ npm intall
 
 ```
-Create a `secretes.json` to the path `./config/secrets.json`
+Create a `secretes.json` to the path `./config/secrets.json`. This file is
+included in the `.gitignore`.
 
 In this file add the information as follows: 
 
 ```json
 
 {
-  "cookieSecrete": "your cookie secret",
+  "cookieSecret": "your cookie secret",
   "awsKey" : "your aws key",
   "awsSecret": "your aws secret",
 }
 ```
-In development to start the server you you need to shell. In the first shell run:
+In development to start the server you you need two shell. In the first shell run:
 
 
 ```sh
@@ -35,5 +36,5 @@ And in the second, your Express serve with
 $ node index.js 
 
 ```
-Extra configuration is need. First, an Amazon Web Services account, and a PostgresSQL server. The 
+Extra configuration is needed. First, an Amazon Web Services account, and a PostgresSQL server. The 
 models for the tables can be found in `./models/sql/`
