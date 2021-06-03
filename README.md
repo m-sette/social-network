@@ -37,3 +37,7 @@ $ node index.js
 ```
 Extra configuration is need. First, an Amazon Web Services account, and a PostgresSQL server. The 
 models for the tables can be found in `./models/sql/`
+
+### Example of the login page.
+
+![login](./login.png "login")
